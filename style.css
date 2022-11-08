@@ -1,0 +1,79 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #6c757d;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: 0.25rem;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.search-form {
+  width: 50%;
+  height: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form input {
+  height: 3rem;
+  min-width: 50%;
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  border: 2px solid white;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+}
+
+.search-form button {
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.5rem;
+  border: none;
+  border-left: 2px solid white;
+  border-radius: 0 10px 10px 0;
+  background-color: white;
+  cursor: pointer;
+  background-color: antiquewhite;
+}
