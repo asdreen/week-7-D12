@@ -46,7 +46,7 @@ loadPics = (photos) => {
             Hide
             </button>
         </div>
-        <small class="text-muted">9 mins</small>
+        <small class="text-muted">${data.photos[i].id}</small>
         </div>
     </div>
     </div>
